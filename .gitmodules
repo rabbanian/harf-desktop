@@ -6,3 +6,6 @@
 	path = external/imgui
 	url = https://github.com/ocornut/imgui
 	branch = docking
+[submodule "external/asio"]
+	path = external/asio
+	url = https://github.com/chriskohlhoff/asio

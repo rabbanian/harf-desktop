@@ -45,3 +45,7 @@ set(GLAD_HDR
 
 add_library(glad STATIC "${GLAD_SRC}" "${GLAD_HDR}")
 target_include_directories(glad PUBLIC glad/include)
+
+
+add_library(asio INTERFACE)
+target_include_directories(asio INTERFACE asio/asio/include)
